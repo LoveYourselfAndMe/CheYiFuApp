@@ -1,0 +1,43 @@
+<resources>
+    <string name="net_error">网络异常请检查</string>
+    <string name="app_name">车易付</string>
+    <string name="get_code">获取验证码</string>
+    <string name="submit">点击登录</string>
+    <string name="get_code_again">重新获取</string>
+    <string name="phone">手机号/Phone Number</string>
+    <string name="code">验证码/Code</string>
+    <string name="main">首页</string>
+    <string name="cheweiyuding">车位预约</string>
+    <string name="tingchejiaofei">停车缴费</string>
+    <string name="my">我的</string>
+    <string name="cheliangchuchang">车辆出场</string>
+    <string name="query">违章查询</string>
+    <string name="che_sure">车主认证</string>
+    <string name="stop_car">停车记录</string>
+    <string name="qr">扫一扫</string>
+    <string name="yu_e">EB余额</string>
+    <string name="ingetral">积分优惠</string>
+    <string name="add_car">添加车辆</string>
+    <string name="car_record">停车记录</string>
+    <string name="car_manage">车辆管理</string>
+    <string name="tuijian">推荐有奖</string>
+    <string name="about">关于我们</string>
+    <string name="problem_back">问题反馈</string>
+    <string name="tijiao">提交</string>
+    <string name="my_center">个人中心</string>
+    <string name="add_car_message">请绑定真实有效的车牌号码</string>
+    <string name="sure">确定</string>
+    <string name="call">取消</string>
+    <string name="car_sure">请上传行驶证照片完成车辆认证</string>
+    <string name="right_away">立即验证</string>
+    <string name="car_phone">车牌号码 : </string>
+    <string name="stop">停   车   场  : </string>
+    <string name="in_time">入场时间 : </string>
+    <string name="state">当前状态 : </string>
+    <string name="pay_alart">温馨提示：车辆锁定状态下不允许出场 。</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,81 @@
+
+body{
+/*	background-image: url('../images/login_bg.jpg');
+	background-size: auto;
+	background-repeat: repeat;*/
+	background: rgba(245,245,245,0.9);
+}
+
+.log_logo{
+	display: block;
+	width: 3.9rem;
+	height: 4.8rem;
+	margin: 25% auto;
+}
+
+.log_box_body{
+	width: 21.77rem;
+	padding-bottom: 2rem;
+	margin: 30% auto;
+}
+
+.log_boxOne{
+	width: 22rem;
+	height: 3.55rem;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.log_boxOne img{
+	width: 2.2rem;
+	height: 2.5rem;
+	margin: 0.6rem 0 0 1rem;
+}
+.log_boxOne input{
+	width: 17.5rem;
+	height: 3.4rem;
+	font-size: 1.25rem;
+	text-indent: 7px;
+	border: none;
+	border-radius: 10px;
+}
+
+.log_boxTwo{
+	width: 22rem;
+	height: 3.55rem;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+.log_boxTwo img{
+	width: 2rem;
+	height: 2rem;
+	margin: 0.8rem 0 0 1.1rem;
+}
+.log_boxTwo form{
+	width: 17.7rem;
+}
+.log_boxTwo form input{
+	width: 10rem;
+	height: 3.45rem;
+	font-size: 1.25rem;
+	text-indent: 7px;
+	border: none;
+	border-radius: 10px;
+}
+.log_boxTwo form button{
+	width: 5.3rem;
+	height: 1.82rem;
+	color: #888888;
+	font-size: 0.7rem;
+	background: #fff;	
+	border: 1px solid #ccc;
+	margin: 1rem 1.3rem 0 0;
+}
+
+.com_box{
+	text-align: center;
+	font-size: 1rem;
+	color: #95a098;
+}

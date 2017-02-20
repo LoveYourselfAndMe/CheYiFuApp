@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/index_bg" />
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <ImageButton
+                android:id="@+id/bt_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/zhuyeicon257" />
+
+            <RadioGroup
+                android:id="@+id/rg_home_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <RadioButton
+                    android:id="@+id/first"
+                    style="@style/bottom_style"
+                    android:drawableTop="@drawable/bootom_main_selector"
+                    android:text="@string/main" />
+
+                <RadioButton
+                    android:id="@+id/second"
+                    style="@style/bottom_style"
+                    android:layout_marginRight="15dp"
+                    android:drawableTop="@drawable/bootom_main_selector"
+                    android:text="@string/cheweiyuding" />
+
+                <RadioButton
+                    android:id="@+id/three"
+                    style="@style/bottom_style"
+                    android:layout_marginLeft="15dp"
+                    android:drawableTop="@drawable/bootom_main_selector"
+                    android:text="@string/tingchejiaofei" />
+
+                <RadioButton
+                    android:id="@+id/four"
+                    style="@style/bottom_style"
+                    android:drawableTop="@drawable/bootom_main_selector"
+                    android:text="@string/my" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

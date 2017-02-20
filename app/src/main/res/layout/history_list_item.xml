@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <RelativeLayout
+       android:layout_width="80dp"
+       android:layout_height="30dp"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="20dp"
+       android:layout_centerVertical="true"
+       android:background="@drawable/list_order_online_press">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:textColor="@color/title_bar"
+            android:text="立即支付"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/car_phone" />
+
+            <TextView
+                style="@style/history_text"
+                android:text="京B 4****34" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="停  车  场 :" />
+
+            <TextView
+                style="@style/history_text"
+                android:text="车易付" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/in_time" />
+
+            <TextView
+                style="@style/history_text"
+                android:text="2017-02-16  06：45：33" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/history"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/state" />
+
+            <TextView
+                style="@style/history_text"
+                android:text="未入场"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
